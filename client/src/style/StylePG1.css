@@ -1,0 +1,453 @@
+/* CABEÇALHO */
+
+.inicio {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 174px;
+  left: 0;
+  top: 0;
+  background: #000000;
+  border: 1px solid #000000;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Adicionado para centralizar verticalmente */
+}
+
+/* formulario de cadastro cliente*/
+.form-control {
+  text-align: center;
+
+  border-radius: 10px;
+  box-shadow: inset 2px 5px 10px rgba(255, 136, 0, 0.3);
+  transition: 300ms ease-in-out;
+  width: 2000%;
+
+  padding: 4px;
+  margin-bottom: 28%;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-style-ordens {
+  top: 55%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+  position: absolute;
+  top: 35%;
+  width: 30%;
+  /* Alinha a div ao meio verticalmente */
+  left: 35%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+.titulo-pag-Padrao {
+  margin-top: 5%;
+  position: fixed;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10%;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  background: #ff7a00;
+  font-family: 'Inter';
+  font-style: italic;
+  font-size: 25px;
+  top: 5%;
+  /* Alinha a div ao meio verticalmente */
+  left: 50%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.titulo-pag {
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 100%;
+  text-align: center;
+  width: 30%;
+  height: 5%;
+  background: #ff7a00;
+  font-family: 'Inter';
+  font-style: italic;
+  font-size: 25px;
+
+  top: 32%;
+  /* Alinha a div ao meio verticalmente */
+  left: 57%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+/*botão salvarr*/
+.botaoSalvar {
+  /* INFO PAGINA CADASTRAR CLIENTE */
+
+  width: 119px;
+  height: 56px;
+  left: 583px;
+  top: 581px;
+
+  background: #000000;
+
+  /* SALVAR */
+  width: 125px;
+  height: 26px;
+  left: 580px;
+  top: 596px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ff7a00;
+}
+.botaoAcessarOrdem {
+  /* INFO PAGINA CADASTRAR CLIENTE */
+  position: relative;
+  background: #000000;
+
+  /* SALVAR */
+  width: 25%;
+  height: 26px;
+
+  right: -74%; /* Ajuste conforme necessário */
+  bottom: 5px;
+  font-family: 'Inter';
+  font-style: italic;
+
+  font-size: 20px;
+  line-height: 50%;
+  text-align: center;
+  color: #ff7a00;
+}
+
+.checkout-btn {
+  margin-top: 5%; /* Adiciona um espaçamento à direita de cada botão */
+}
+
+.central-2 {
+  height: 95%;
+  width: 13%;
+  text-align: center;
+  margin-left: 10%;
+}
+.centralOrdem-1 {
+  margin-top: 2%;
+  position: absolute;
+  top: 40%;
+  /* Alinha a div ao meio verticalmente */
+  left: 40%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+.centralOrdem-2 {
+  position: absolute;
+  top: 25%;
+  /* Alinha a div ao meio verticalmente */
+  left: 40%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+.modificaServico {
+  position: relative;
+  background: #000000;
+  right: -74%; /* Ajuste conforme necessário */
+  bottom: 3%;
+  font-family: 'Inter';
+  font-style: italic;
+
+  font-size: 20px;
+  line-height: 50%;
+  text-align: center;
+  color: #ff7a00;
+}
+
+.central {
+  margin-top: 2%;
+  position: absolute;
+  top: 60%;
+  /* Alinha a div ao meio verticalmente */
+  left: 40%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+.centralInfo {
+  margin-top: 2%;
+  position: absolute;
+  top: 55%;
+  /* Alinha a div ao meio verticalmente */
+  left: 50%;
+  /* Alinha a div ao meio horizontalmente */
+  transform: translate(-50%, -50%);
+}
+
+.h1info {
+  font-size: 2.5em;
+  /* Tamanho da fonte */
+  color: #333;
+  /* Cor do texto */
+  margin-bottom: 20px;
+  /* Espaçamento inferior */
+}
+
+.h2info {
+  font-size: 1.5em;
+  /* Tamanho da fonte */
+  color: #666;
+  /* Cor do texto */
+  margin-bottom: 10px;
+  /* Espaçamento inferior */
+}
+
+.h3info {
+  font-size: 1.2em;
+  /* Tamanho da fonte */
+  color: #999;
+  /* Cor do texto */
+  margin-bottom: 5px;
+  /* Espaçamento inferior */
+}
+
+/* LOGO */
+.logo {
+  width: 170px;
+  height: auto;
+  max-width: 100%;
+  /* Garante que a imagem não ultrapasse a largura do contêiner */
+  max-height: 100%;
+  /* Garante que a imagem não ultrapasse a altura do contêiner */
+  top: 50%;
+  left: 50%;
+
+  background: url('../assets/logo.png') no-repeat;
+  background-size: contain;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* APP BAR LATERAL */
+.barra_lateral {
+  position: absolute;
+  width: 261px;
+  height: 1266px;
+  left: 0px;
+  top: 174px;
+  border-radius: 0.9%;
+  background: #ff7a00;
+}
+
+/*  BOTOES */
+
+.botoes {
+  margin-top: 10px;
+
+  background-color: black;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 10px;
+  cursor: pointer;
+
+  font-size: 16px;
+
+  margin-bottom: 10px;
+
+  display: block;
+
+  width: 100%;
+
+  text-align: center;
+
+  opacity: 0.8;
+}
+
+/* -------------------------------------- */
+.containerPadrao {
+  margin-top: 900%;
+  width: 1000%;
+  grid-template-columns: auto;
+  gap: 0px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(16, 86, 82, 0.75);
+  border: none;
+}
+
+.card {
+  margin-left: 10%;
+  background: #ff7a00;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+    0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+    0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.75);
+  font-weight: 700px;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* Cart  Magin aq*/
+.cart {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.cart .steps {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.info-basic {
+  text-align: left;
+}
+
+.cart .steps .step {
+  display: grid;
+  gap: 10px;
+}
+
+.cart .steps .step span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.cart .steps .step p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Promo */
+
+.input_field {
+  width: 95%;
+  height: 50px;
+  padding: 0 0 0 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(16, 86, 82);
+  background-color: rgb(251, 243, 228);
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px rgb(251, 243, 228);
+  background-color: rgb(201, 193, 178);
+}
+
+.promo form button {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+  width: 50%;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0.5px 0.5px #ffffff, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+  border-radius: 5px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+/* Checkout */
+.payments .details {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  padding: 0px;
+  gap: 5px;
+}
+
+.payments .details span:nth-child(odd) {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin: auto auto auto 0;
+}
+
+.payments .details span:nth-child(even) {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin: auto 0 auto auto;
+}
+
+.checkout .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  background-color: rgba(16, 86, 82, 0.5);
+}
+
+.price {
+  position: relative;
+  font-size: 22px;
+  color: #2b2b2f;
+  font-weight: 900;
+}
+
+.checkout .checkout-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 36px;
+  background: rgba(16, 86, 82, 0.55);
+  box-shadow: 0px 0.5px 0.5px rgba(16, 86, 82, 0.75),
+    0px 1px 0.5px rgba(16, 86, 82, 0.75);
+  border-radius: 7px;
+  border: 1px solid rgb(16, 86, 82);
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
