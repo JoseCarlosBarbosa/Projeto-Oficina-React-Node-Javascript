@@ -14,7 +14,7 @@ function CcadastroCliente() {
     },
   };
 
-  const handleCadastro = async e => {
+  const handleCadastroCliente = async e => {
     e.preventDefault();
 
     try {
@@ -85,7 +85,7 @@ function CcadastroCliente() {
             </div>
             <Link to="/">
               <button
-                onClick={e => handleCadastro(e)}
+                onClick={e => handleCadastroCliente(e)}
                 className="botaoSalvar"
                 type="submit"
                 id="btn-client-submit">
